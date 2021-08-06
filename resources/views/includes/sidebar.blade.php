@@ -3,9 +3,9 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+            <i> <img src="{{ asset('assets/logo.png') }}" width="50px" height="50px" alt=""></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Zalego<sup>Stepwise</sup></div>
+        <div class="sidebar-brand-text mx-3" style="color:orange">Zalego<sup style="color: greenyellow">Stepwise</sup></div>
     </a>
 
     <!-- Divider -->
@@ -36,8 +36,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Swttings:</h6>
-                <a class="collapse-item" href="#">class</a>
-                <a class="collapse-item" href="#">Stream</a>
+                <a class="collapse-item" href="{{route('classes.index') }}">class</a>
+                <a class="collapse-item" href="{{route('stream.index') }}">Stream</a>
                 <a class="collapse-item" href="#">subject category</a>
                 <a class="collapse-item" href="#">subject</a>
                 <a class="collapse-item" href="#">Teachers</a>
